@@ -25,7 +25,7 @@ Of course, it's not limited to just that, you can also use it as a simple note t
 ![](https://github.com/adikoch17/MoodBoard/blob/main/images/readme%20images/1.png)
 
 
-##Future Updates:
+## Future Updates:
 - Ability to resize images
 - Change font size
 - Download image of the moodboard created
