@@ -4,4 +4,4 @@ Of course, it's not limited to just that you can also use it as a simple not tak
 
 #features
 ##Add text anywhere you want
-![move text around](.images/readme images/2.png)
+![move text around](https://github.com/adikoch17/MoodBoard/blob/main/images/readme%20images/2.png)
