@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #202020;
+    background-image: linear-gradient(rgba(0, 0, 0, .1) .1em, transparent .1em),
+                      linear-gradient(90deg, rgba(0, 0, 0, .1) .1em, transparent .1em);
+    background-size: 2em 2em;
+    height: 100%;
+}
+
+#link{
+    background-color: rgba(30, 30, 30,1);
+    width:400px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+img.items{
+    position: absolute;
+    left : 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    max-height: 400px;
+    width: auto;
+}
+
+.ta{
+    position: absolute;
+    font-family: 'Cutive Mono', monospace;
+    font-weight: 500;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, 0);
+    resize: none;
+}
+
+
+textarea{
+    font-family: 'Cutive Mono', monospace;
+    font-weight: 500;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, 0);
+    resize: none;
+    
+}
+
+.bar{
+    font-size:12px;
+    background-color: rgb(233, 107, 250);
+    height: 14px;
+    width: 100%;
+    /* user-select: contain; */
+}
+
+textarea:focus{
+    border: 1px solid rgb(233, 107, 250);
+    outline: none !important;
+    resize:both;
+}
+
+.images{
+    height: 100vh;
+    width: 100%;
+}
+
+#toolbar{
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(15, 15, 15,1);
+    z-index: 999;
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0,1);
+   
+}
+
+#move{
+    margin: 20px;
+    padding: 4px;
+    height: 30px;
+    width: 30px;
+    background-color:rgba(15, 15, 15,1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#move>img{
+    height: 26px;
+    width: auto;
+    user-select: none;
+}
+
+#addButton{
+    margin-right: 10px;
+    padding: 4px;
+    height: 30px;
+    width: 30px;
+    background-color:rgba(15, 15, 15,1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#addButton>img{
+    height: 26px;
+    width: auto;
+    user-select: none;
+}
+#add{
+    margin: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#delete{
+    margin: 20px;
+    padding: 4px;
+    height: 30px;
+    width: 30px;
+    background-color:rgba(15, 15, 15,1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#delete>img{
+    height: 26px;
+    width: auto;
+    user-select: none;
+}
+
+
+#text{
+    margin: 20px;
+    padding: 4px;
+    height: 30px;
+    width: 30px;
+    background-color:rgba(15, 15, 15,1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text>img{
+    height: 26px;
+    width: auto;
+    user-select: none;
+}
+
+
+.notsel{
+    background-color:rgba(15, 15, 15,1);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0,1), 
+            -3px -3px 6px rgba(50, 50, 50,1);
+}
+
+.sel{
+    background-color:rgba(0, 100, 0,0.5);
+    box-shadow: 2px 2px 5px rgba(50, 50, 50,1),
+            -3px -3px 6px rgba(0, 0, 0,1);
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:rgba(0, 0, 0,1);
+    font-style: italic;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: red;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: red;
+  }
